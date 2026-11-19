@@ -1,0 +1,71 @@
+{
+  "documents": 102,
+  "runs_by_machine": [
+    {
+      "host": "169.254.17.241",
+      "books": 1
+    },
+    {
+      "host": "169.254.25.159",
+      "books": 1
+    },
+    {
+      "host": "DESKTOP-AC1THLS",
+      "books": 3
+    },
+    {
+      "host": "ip-172-31-22-101",
+      "books": 100
+    }
+  ],
+  "last_processed": [
+    {
+      "_id": "pg74.txt",
+      "author": "Lewis Carroll",
+      "bucket": "public-shx2jx",
+      "language": "English",
+      "runs": [
+        {
+          "host": "169.254.25.159",
+          "at": "2026-11-19 16:16:53.754000"
+        }
+      ],
+      "title": "Alice's Adventures in Wonderland",
+      "unique_words": 2575,
+      "vocabulary_ratio": 0.0939,
+      "word_count": 27427
+    },
+    {
+      "_id": "lambda_test.txt",
+      "author": "Lewis Carroll",
+      "bucket": "public-shx2jx",
+      "language": "English",
+      "runs": [
+        {
+          "host": "169.254.17.241",
+          "at": "2026-11-19 15:58:27.844000"
+        }
+      ],
+      "title": "Alice's Adventures in Wonderland",
+      "unique_words": 2575,
+      "vocabulary_ratio": 0.0939,
+      "word_count": 27427
+    },
+    {
+      "_id": "pg996.txt",
+      "author": "Miguel de Cervantes Saavedra",
+      "bucket": "public-shx2jx",
+      "language": "English",
+      "runs": [
+        {
+          "host": "ip-172-31-22-101",
+          "at": "2026-11-19 15:47:05.926000"
+        }
+      ],
+      "title": "Don Quixote",
+      "unique_words": 15574,
+      "vocabulary_ratio": 0.0359,
+      "word_count": 433304
+    }
+  ]
+}

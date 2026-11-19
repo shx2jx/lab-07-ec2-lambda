@@ -14,7 +14,7 @@ Suppose your instance is running and has a public IP address, but `ssh` cannot c
 
 **Your answer:** Which path did you take in the console (service → page → tab)?
 
-...
+EC2 --> Security Groups --> lab07-ssh -->Inbound Rules
 
 ## 2. Lambda: why didn't my function run?
 
@@ -26,7 +26,7 @@ Suppose you uploaded a new book to your bucket, but several minutes later MongoD
 
 **Your answer:** Which path did you take in the console (service → page → tab)?
 
-...
+Lambda --> FUnctions --> book-analyzer-dev-analyze_new_book --> FUnction Overview
 
 ## 3. Lambda: where do I find the error?
 
@@ -38,7 +38,7 @@ Suppose the function did start, but MongoDB still has no document for the book. 
 
 **Your answer:** Which path did you take in the console (service → page → tab)?
 
-...
+CloudWatch → Log groups → /aws/lambda/book-analyzer-dev-analyze_new_book → Log streams
 
 ## 4. EC2 or Lambda: a backlog or new uploads?
 
@@ -54,4 +54,5 @@ For comparison, typical times in this lab:
 
 **Your answer:**
 
-...
+Case A: Use EC2 to batch all 5000 books at once, then shut the instance down afterwards
+Case B: Use Lambda (since uploads are at random times) to automatically analyze every new book without the need of an idle EC2 instance
